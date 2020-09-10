@@ -1,4 +1,4 @@
-.btn-primary{
+.btn-primary {
   border: none;
   display: inline-block;
   font-family: 'Comfortaa', cursive;
@@ -70,4 +70,8 @@ h1 {
 
 ul {
   list-style-type: none;
+}
+
+.page-container {
+  margin-top: 100px;
 }
