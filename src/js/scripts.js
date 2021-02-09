@@ -88,6 +88,7 @@ let pokemonList = [];
       let url = pokemon.detailsUrl;
       return $.ajax(url)
         .then(function (details) {
+            pokemon.name;
             pokemon.imageUrlFront = details.sprites.front_default;
             pokemon.imageUrlBack = details.sprites.back_default;
             pokemon.height = details.height;
