@@ -22,16 +22,16 @@ let pokemonList = [];
 
 
       //allow for scrolling nav bar//
-  $(window).scroll(function(){
-          if ($(window).scrollTop() >= 300) {
-              $('nav').addClass('fixed-header');
-              $('nav div').addClass('visible-title');
-          }
-          else {
-              $('nav').removeClass('fixed-header');
-              $('nav div').removeClass('visible-title');
-          }
-  });
+  // $(window).scroll(function(){
+  //         if ($(window).scrollTop() >= 300) {
+  //             $('nav').addClass('fixed-header');
+  //             $('nav div').addClass('visible-title');
+  //         }
+  //         else {
+  //             $('nav').removeClass('fixed-header');
+  //             $('nav div').removeClass('visible-title');
+  //         }
+  // });
 
     //function that allows us to see a card with all pokemon
     function addListItem(pokemon) {

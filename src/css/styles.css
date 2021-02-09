@@ -90,7 +90,7 @@ nav {
     z-index: 10;
 }
 
-nav div {
+/* nav div {
     color: white;
     font-size: 2rem;
     line-height: 60px;
@@ -101,4 +101,4 @@ nav div {
 }
 .visible-title {
     visibility: visible;
-}
+} */
